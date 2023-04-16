@@ -1,3 +1,9 @@
+*{
+    box-sizing:border-box;
+    margin-left: center;
+    margin-top: 3.5rem;
+      
+}
 
 #begin-block {
     display: flex;
@@ -8,16 +14,21 @@
     height: 50%;
     background-color: yellow;
     margin:auto;
-    border: 5px black;
+
+.hide {
+    display:none;
+}
+    
 }
 #start-button {
     background-color:blue;
     padding: 10px;
-    margin: auto;
+    margin:auto;
     width: 25%;
     color:white;
     justify-content: center;
     text-align:center;
     display:inline-block;
     font-size: 16px;
+    cursor:pointer;
 }
