@@ -1,7 +1,23 @@
-.body {
+
+#begin-block {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-image:"/assets/3.jpg"
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    margin:auto;
+    border: 5px black;
+}
+#start-button {
+    background-color:blue;
+    padding: 10px;
+    margin: auto;
+    width: 25%;
+    color:white;
+    justify-content: center;
+    text-align:center;
+    display:inline-block;
+    font-size: 16px;
 }
